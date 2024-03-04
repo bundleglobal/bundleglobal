@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <div>
             Marcel <br />
-            <a href='mailto:kacper@bundle.global'>marcel@bundle.global</a>{' '}
+            <a href='mailto:marcel@bundle.global'>marcel@bundle.global</a>{' '}
             <br />
             <a href='https://github.com/winterodin'>github</a> <br />
           </div>
