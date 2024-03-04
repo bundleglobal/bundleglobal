@@ -9,11 +9,12 @@ export default function Home() {
         <CobeGlobe />
       </div>
       <div className='fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 select-none font-mono text-center max-w-[80dvw]'>
-        <div className=''>bundle.global</div>
         <div>
-          <a href='mailto:contact@bundle.global'>contact@bundle.global</a>
-          <br />
+          bundle.global <br />
           BUNDLE SP. Z O.O. <br />
+          <a href='mailto:contact@bundle.global'>contact@bundle.global</a>{' '}
+          <br />
+          <a href='https://github.com/bundleglobal'>github</a> <br />
         </div>
 
         <div className='flex flex-col md:flex-row gap-4 md:gap-8 mt-8 md:justify-center'>
