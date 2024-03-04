@@ -3,12 +3,12 @@ import { CobeGlobe } from './components/cobe';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen max-h-screen items-center justify-center text-white'>
-      <div className='fixed left-1/2 -translate-x-1/2'>
+    <main className='flex min-h-[100dvh] max-h-[100dvh] text-white text-sm md:text-base'>
+      <div className='fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2'>
         {/* <Globe /> */}
         <CobeGlobe />
       </div>
-      <div className='fixed select-none font-mono text-center max-w-[80dvw]'>
+      <div className='fixed left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 select-none font-mono text-center max-w-[80dvw]'>
         <div className=''>bundle.global</div>
         <div>
           <a href='mailto:contact@bundle.global'>contact@bundle.global</a>
